@@ -1,0 +1,68 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package com.microservices.models;
+
+/**
+ *
+ * @author AKulkarni17
+ */
+public class Product {
+
+    private Long productID;
+    private String productName;
+    private String productDescription;
+    private Double productPrice;
+    private boolean productStock;
+
+    public Product(Long productID, String productName, String productDescription, Double productPrice, boolean productStock) {
+        this.productID = productID;
+        this.productName = productName;
+        this.productDescription = productDescription;
+        this.productPrice = productPrice;
+        this.productStock = productStock;
+    }
+
+    public Long getProductID() {
+        return productID;
+    }
+
+    public void setProductID(Long productID) {
+        this.productID = productID;
+    }
+
+    public String getProductName() {
+        return productName;
+    }
+
+    public void setProductName(String productName) {
+        this.productName = productName;
+    }
+
+    public String getProductDescription() {
+        return productDescription;
+    }
+
+    public void setProductDescription(String productDescription) {
+        this.productDescription = productDescription;
+    }
+
+    public Double getProductPrice() {
+        return productPrice;
+    }
+
+    public void setProductPrice(Double productPrice) {
+        this.productPrice = productPrice;
+    }
+
+    public boolean isProductStock() {
+        return productStock;
+    }
+
+    public void setProductStock(boolean productStock) {
+        this.productStock = productStock;
+    }
+
+}

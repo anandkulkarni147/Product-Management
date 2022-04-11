@@ -1,0 +1,3 @@
+com\microservices\models\Product.class
+com\microservices\MicroserviceApplication.class
+com\microservices\controllers\ProductController.class
