@@ -1,2 +1,3 @@
 # Product-Management
-Created a SpringBoot app Product Management with 3 microservices of Product, Inventory and Pricing
+Created a Product Management application with SpringBoot microservices.
+Added product, pricing and inventory microserices and exposed REST-ful endpoints to use these services
